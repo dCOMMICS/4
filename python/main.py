@@ -19,6 +19,7 @@ def main():
                 run = False
                 
                 WIN.fill((255,255,255))
+                pygame.display.update()
                 pygame.quit()
                 
                 if __name__ == '__main__':
