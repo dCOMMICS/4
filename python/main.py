@@ -9,6 +9,10 @@ pygame.display.set_caption("game one")
 
 WHITE =(255,255,255)
 
+def draw_window():
+    WIN.fill(WHITE)
+    pygame.display.update()
+
 def main():
     
     run = True
