@@ -77,5 +77,28 @@ print(sys.argv)
 print(sys.argv[0]) # program name
 print(sys.argv[1]) # first arg
     
+    #  the input() function stores a result as a string
+    
+    #  if the user writes integers instead of strings then the output will add the 1st and 2nd integer  i.e user writes 24 then last_name 12 the output will be 2412 instead of 36;
+    # otherwise if you want it to write the output as 36 you need to add int() function;
+print ("Running Out of Date")
+
+first_name = input("First Name:")
+
+last_name = input("Last Name:")
+
+print(first_name + " " + last_name)
+
+first_name = input("First Name:")
+
+last_name = input("Last Name:")
+
+print(int(first_name + " " + last_name))
+
+#  or
+
+print(int(first_name) + int(last_name))
+
+
     
     
