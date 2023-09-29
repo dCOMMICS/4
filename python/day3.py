@@ -59,3 +59,7 @@ def myfunc():
     
     
     # this should print 76. or error
+    # 
+    print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
+    
+    
