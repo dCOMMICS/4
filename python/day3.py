@@ -8,40 +8,54 @@
 
 # interger types
 
-childAge = 17;
+# childAge = 17;
 
-print(childAge); # this should print the child age 17
+# print(childAge); # this should print the child age 17
 
-print(type(childAge)) # this should print the data type of childAge that is interger type.
+# print(type(childAge)) # this should print the data type of childAge that is interger type.
 
-#  boolean
+# #  boolean
 
-isMarried = True;
+# isMarried = True;
 
-print(isMarried);   # this should   be TRUE
+# print(isMarried);   # this should   be TRUE
 
-print(type(isMarried)) # this should print the  data type of isMarried that is  boolean type.
+# print(type(isMarried)) # this should print the  data type of isMarried that is  boolean type.
 
-# float 
+# # float 
 
-height = 1.80;
+# height = 1.80;
 
-print(height); # this should print the height 1.80
+# print(height); # this should print the height 1.80
 
-print(type(height)) # this should print the data type of height that is float type.
+# print(type(height)) # this should print the data type of height that is float type.
 
-# complex     
+# # complex     
 
-complexNumber = 14 + 10j;
+# complexNumber = 14 + 10j;
 
-print(complexNumber); # this should print the complex number 14 + 10j
+# print(complexNumber); # this should print the complex number 14 + 10j
 
-print(type(complexNumber)) # this should print the data type of complexNumber that is complex type.
+# print(type(complexNumber)) # this should print the data type of complexNumber that is complex type.
 
-# string
+# # string
 
-name = "<NAME>";
+# name = "<NAME>";
 
-print(name); # this should print the name "<NAME>"
+# print(name); # this should print the name "<NAME>"
 
-print(type(name)) # this should print the data type of name that is string type.
+# print(type(name)) # this should print the data type of name that is string type.
+
+# assignment 
+
+x = 75;
+
+def myfunc():
+    x=x+1
+    print(x);
+    
+    myfunc()
+    print(x)
+    
+    
+    # this should print 76. or error
