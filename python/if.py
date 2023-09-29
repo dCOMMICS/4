@@ -17,3 +17,16 @@ if kjAge > PjAge:
     elif kjAge > PjAge:
         
         print("fils d'enfants")
+        
+        
+girlfriendCheat = True;
+
+if girlfriendCheat == True:
+    
+    print("girlfriend cheat")
+    
+elif girlfriendCheat  == False:
+    print("am sorry mothufucka")
+    
+else:
+    print("something went wrong")
