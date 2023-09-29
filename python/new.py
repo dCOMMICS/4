@@ -31,3 +31,12 @@ if object_size > 5:
 else:
 
         print('Object poses no threat')
+        
+        
+        #  and or operators
+        
+        x= 21;
+        y=17;
+        
+        if x==17 or y==17:
+            print(x+y)
